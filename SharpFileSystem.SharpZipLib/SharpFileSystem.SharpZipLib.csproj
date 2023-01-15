@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net45;net6.0</TargetFrameworks>
+        <TargetFrameworks>netstandard2.0</TargetFrameworks>
         <Description>Access a ZIP as a virtual file system</Description>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="SharpZipLib" Version="0.86.0" />
+      <PackageReference Include="SharpZipLib" Version="1.4.1" />
     </ItemGroup>
 
     <ItemGroup>
